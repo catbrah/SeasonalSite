@@ -8,7 +8,7 @@
 /*** Header ***/
 
 .background-img {
-    background: url(img/glacier.jpg) no-repeat 50% 50% fixed;
+    background: url(glacier.jpg) no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
