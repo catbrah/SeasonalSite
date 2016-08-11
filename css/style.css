@@ -1,8 +1,7 @@
 /*** Nav ***/
 
 .glyphicon {
-    color: #FFF;
-    font-size: 3em;
+    font-size: 1em;
 }
 
 .navbar-brand {
@@ -11,7 +10,6 @@
 
 .nav a {
     color: white;
-    font-size: 1.3em;
 }
 
 .wide {
@@ -47,6 +45,10 @@
 
 .span1-text {
     width: 100%;
+    font-family: Open Sans;
+    font-size: 1.1em;
+    font-weight: 800;
+    font-style: italic
 }
 
 .span1-header {
@@ -57,6 +59,15 @@
 
 .header-color {
     background-color: #BBEBDF;
+    padding-bottom: 1vh;
+}
+
+.span1-header-text {}
+
+.span1-information {
+    margin: 3vh 3vh;
+    font-family: Roboto;
+    font-size: 1.4em
 }
 
 
