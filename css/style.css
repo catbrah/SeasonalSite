@@ -1,14 +1,28 @@
 /*** Nav ***/
 
-.icon-bar {
-    background-color: black;
+.glyphicon {
+    color: #FFF;
+    font-size: 3em;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav a {
+    color: white;
+    font-size: 1.3em;
+}
+
+.wide {
+    min-width: 100%;
 }
 
 
 /*** Header ***/
 
 .background-img {
-    background: url(img/glacier.jpg) no-repeat 50% 50% fixed;
+    background: url(/img/glacier.jpg) no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,23 +31,32 @@
 
 .header-text {
     color: white;
-    font-size: 2.3em;
+    font-size: 2.7em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-style: italic;
 }
 
 .text-align {
-    margin-top: 30vh;
+    margin-top: 25vh;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 
-/*** Span Texts ***/
+/*** Span 1 Text ***/
 
-.span-text1 {
-    background-color: red;
+.span1-text {
     width: 100%;
+}
+
+.span1-header {
+    padding-top: 3vh;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.header-color {
+    background-color: #BBEBDF;
 }
 
 
@@ -42,3 +65,9 @@
 .fullvh {
     height: 100vh;
 }
+
+
+/**** Medium Media Query ****/
+
+
+/**** Large Media Query ****/
