@@ -20,7 +20,7 @@
 /*** Header ***/
 
 .background-img {
-    background: url(/img/canyon.jpg) no-repeat 50% 50% fixed;
+    background: url("https://poolsocks.github.io/SeasonalSite/img/canyon.jpg") no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -60,13 +60,24 @@
 /*** Span 1 Text ***/
 
 .span1-text {
-    padding-top: 5vh;
-    height: 50vh;
+    margin-top: 2.5vh;
     font-family: roboto;
+    font-weight: 400;
     font-style: italic;
-    font-size: 1.15em;
-    line-height: 1.9;
-    padding-bottom: 20vh;
+    font-size: 1.2em;
+    line-height: 2.0;
+}
+
+.span1b-text {
+    font-family: Open Sans;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-bottom: 2.5vh;
+}
+
+.span1b-align {
+    padding-top: 2vh;
+    padding-bottom: 4vh;
 }
 
 
@@ -75,9 +86,9 @@
 .span2-text {
     width: 100%;
     font-family: Open Sans;
-    font-size: 1.1em;
+    font-size: 1.08em;
     font-weight: 800;
-    font-style: italic
+    font-style: italic;
 }
 
 .span2-header {
@@ -86,8 +97,12 @@
     font-size: 4vh;
 }
 
+.span2-align {
+    background-color: red;
+}
+
 .header-color {
-    background-color: #BBEBDF;
+    background-color: #FF9800;
     padding-bottom: 1vh;
 }
 
