@@ -76,12 +76,16 @@
 }
 
 .span1b-align {
-    padding-top: 2vh;
-    padding-bottom: 4vh;
+    padding: 2vh 3vh 4vh 0;
 }
 
 
 /*** Span 2 Text ***/
+
+.header-color {
+    background-color: #FF9800;
+    padding-bottom: 1vh;
+}
 
 .span2-text {
     width: 100%;
@@ -97,21 +101,10 @@
     font-size: 4vh;
 }
 
-.span2-align {
-    background-color: red;
-}
-
-.header-color {
-    background-color: #FF9800;
-    padding-bottom: 1vh;
-}
-
-.span2-header-text {}
-
 .span2-information {
     margin: 3vh 3vh;
     font-family: Roboto;
-    font-size: 1.4em
+    font-size: 1.4em;
 }
 
 
@@ -128,7 +121,7 @@
 
 /**** Medium Media Query ****/
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:767px) {
     .header-text {
         font-size: 5em;
     }
@@ -139,17 +132,20 @@
         padding-top: 50vh;
         font-size: 3em;
     }
+    .span2-information {
+        margin: 3vh 2vh;
+    }
 }
 
 
 /**** Large Media Query ****/
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width:1023px) {
     .header-text {
         font-size: 5.5em;
     }
     .header2-text {
-        padding-top: 45vh;
+        padding-top: 50vh;
         font-size: 3em;
     }
 }
