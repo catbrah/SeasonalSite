@@ -20,7 +20,7 @@
 /*** Header ***/
 
 .background-img {
-    background: url(SeasonalSite/img/canyon.jpg) no-repeat 50% 50% fixed;
+    background: url("https://poolsocks.github.io/SeasonalSite/img/canyon.jpg") no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
